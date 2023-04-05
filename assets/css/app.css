@@ -1,0 +1,16 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+select:disabled {
+  border: red;
+  border-style: solid;
+  border-width: 1px;
+}
+
+select {
+  border: green;
+  border-style: solid;
+  border-width: 1px;
+}
+/* This file is for your main application CSS */
